@@ -96,6 +96,8 @@ def all_holidays_with_bbq(holiday_hash)
     for name in holiday_hash[inner_name].keys
       holiday_hash[inner_name][name].values.include?("BBQ")
       
+    end
+  end
     
 end
 
