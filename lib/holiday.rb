@@ -91,12 +91,12 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-  
+  result =[]
   for inner_name in holiday_hash.keys
     for name in holiday_hash[inner_name].keys
-    binding.pry
+    # binding.pry
     if holiday_hash[inner_name][name].include?("BBQ")
-       name
+      result << name
     end
     end
   end
