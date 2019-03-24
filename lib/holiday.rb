@@ -94,7 +94,7 @@ def all_holidays_with_bbq(holiday_hash)
   
   for inner_name in holiday_hash.keys
     for name in holiday_hash[inner_name].keys
-      holiday_hash[inner_name][name].values.include?("BBQ")
+      holiday_hash[inner_name][name].values_at.include?("BBQ")
       
     end
   end
