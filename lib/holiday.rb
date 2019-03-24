@@ -96,7 +96,7 @@ def all_holidays_with_bbq(holiday_hash)
     for name in holiday_hash[inner_name].keys
     # binding.pry
     if holiday_hash[inner_name][name].include?("BBQ")
-      puts inner_name
+      puts name
     end
     end
   end
