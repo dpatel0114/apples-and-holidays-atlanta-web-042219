@@ -98,6 +98,7 @@ def all_holidays_with_bbq(holiday_hash)
     if holiday_hash[inner_name][name].values.include?("BBQ")
       puts name
     end
+    end
   end
     
 end
